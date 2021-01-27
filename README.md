@@ -1,5 +1,5 @@
 # ShippingService
-A demo project that calculates the shipping cost of a parcel. This uses Spring Boot, Spring Validation, Spring Data JPA, and in-memory H2 Database.
+A sample project that calculates the shipping cost of a parcel. This uses Spring Boot, Spring Validation, Spring Data JPA, and in-memory H2 Database.
 
 ## Setup
 1. Install Gradle https://gradle.org/install/
@@ -20,4 +20,12 @@ Response:
   "discount": 0,
   "message": ""
 }
+```
+Initial pricing rules are imported from https://github.com/slavilla/ShippingService/blob/master/src/main/resources/data.sql.
+
+Pricing rules can be updated in the H2 console http://localhost:8080/h2-console.
+```
+JDBC URL: jdbc:h2:mem:shipping
+User Name: sa
+Password:
 ```
