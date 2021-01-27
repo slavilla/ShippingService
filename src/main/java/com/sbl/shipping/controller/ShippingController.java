@@ -1,6 +1,8 @@
 package com.sbl.shipping.controller;
 
-import com.sbl.shipping.service.ParcelDetailsBuilder;
+import com.sbl.shipping.model.ShippingCostRequest;
+import com.sbl.shipping.model.ShippingCostResponse;
+import com.sbl.shipping.builder.ParcelDetailsBuilder;
 import com.sbl.shipping.service.ShippingCostCalculator;
 import com.sbl.shipping.service.ShippingCostCalculator.ParcelDetails;
 import com.sbl.shipping.service.ShippingCostCalculator.Result;

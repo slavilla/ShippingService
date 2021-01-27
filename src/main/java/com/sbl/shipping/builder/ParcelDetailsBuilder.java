@@ -1,4 +1,6 @@
-package com.sbl.shipping.service;
+package com.sbl.shipping.builder;
+
+import com.sbl.shipping.service.ShippingCostCalculator;
 
 import java.math.BigDecimal;
 

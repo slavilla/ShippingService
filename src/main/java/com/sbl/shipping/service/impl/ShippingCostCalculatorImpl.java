@@ -1,7 +1,8 @@
-package com.sbl.shipping.service;
+package com.sbl.shipping.service.impl;
 
 import com.sbl.shipping.model.ShippingCostRule;
 import com.sbl.shipping.repository.ShippingCostRuleRepository;
+import com.sbl.shipping.service.ShippingCostCalculator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

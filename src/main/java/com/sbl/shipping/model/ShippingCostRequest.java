@@ -1,4 +1,4 @@
-package com.sbl.shipping.controller;
+package com.sbl.shipping.model;
 
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;

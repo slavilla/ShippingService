@@ -1,9 +1,11 @@
 package com.sbl.shipping.service;
 
+import com.sbl.shipping.builder.ParcelDetailsBuilder;
 import com.sbl.shipping.model.ShippingCostRule;
 import com.sbl.shipping.repository.ShippingCostRuleRepository;
 import com.sbl.shipping.service.ShippingCostCalculator.ParcelDetails;
 import com.sbl.shipping.service.ShippingCostCalculator.Result;
+import com.sbl.shipping.service.impl.ShippingCostCalculatorImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

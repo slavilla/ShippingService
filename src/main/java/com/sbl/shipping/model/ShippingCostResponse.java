@@ -1,4 +1,4 @@
-package com.sbl.shipping.controller;
+package com.sbl.shipping.model;
 
 import java.math.BigDecimal;
 
