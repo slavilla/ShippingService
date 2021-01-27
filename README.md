@@ -22,6 +22,7 @@ Response:
 }
 ```
 Initial pricing rules are imported from https://github.com/slavilla/ShippingService/blob/master/src/main/resources/data.sql.
+
 Pricing rules can be updated in the H2 console http://localhost:8080/h2-console.
 ```
 JDBC URL: jdbc:h2:mem:shipping
