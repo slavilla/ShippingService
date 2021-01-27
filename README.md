@@ -1,5 +1,5 @@
 # ShippingService
-A demo project that calculates the shipping cost of a parcel. This uses Spring Boot, Spring Validation, Spring Data JPA, and in-memory H2 Database.
+A sample project that calculates the shipping cost of a parcel. This uses Spring Boot, Spring Validation, Spring Data JPA, and in-memory H2 Database.
 
 ## Setup
 1. Install Gradle https://gradle.org/install/
